@@ -1,0 +1,707 @@
+.mediaViewInfo {
+	--web-view-name: Followers;
+	--web-view-id: Followers;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Followers;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Followers {
+	position: absolute;
+	width: 375px;
+	height: 812px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Followers;
+	--web-view-id: Followers;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#settings-icon_b {
+	opacity: 0.3;
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.settings-icon_b {
+	overflow: visible;
+	position: absolute;
+	width: 19.875px;
+	height: 19.98px;
+	left: 295.5px;
+	top: 755.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#messages-icon_b {
+	opacity: 0.3;
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.messages-icon_b {
+	overflow: visible;
+	position: absolute;
+	width: 21.4px;
+	height: 18.3px;
+	left: 213.5px;
+	top: 756.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#home-icon_b {
+	opacity: 0.3;
+	position: absolute;
+	width: 19.4px;
+	height: 18.6px;
+	left: 56px;
+	top: 755px;
+	overflow: visible;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Path_761_b {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_761_b {
+	overflow: visible;
+	position: absolute;
+	width: 20.4px;
+	height: 8.6px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_762_b {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_762_b {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 17px;
+	top: 6.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_763_b {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_763_b {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 2px;
+	top: 7.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_764_b {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_764_b {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 12px;
+	left: 2px;
+	top: 7.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#indicator_ca {
+	opacity: 0.08;
+	position: absolute;
+	width: 134px;
+	height: 5px;
+	left: 121px;
+	top: 798px;
+	overflow: visible;
+}
+#indicator_cb {
+	fill: rgba(0,0,0,1);
+}
+.indicator_cb {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 5px;
+	left: 0px;
+	top: 0px;
+}
+#Hayatunnabi_Nabil_cc {
+	left: 100px;
+	top: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 177px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(76,82,100,1);
+}
+#mentors-icon_cd {
+	position: absolute;
+	width: 15.9px;
+	height: 18.4px;
+	left: 137px;
+	top: 755px;
+	overflow: visible;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Academic_Info.html;
+	cursor: pointer;
+}
+#Path_821_ce {
+	fill: transparent;
+	stroke: rgba(76,82,100,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_821_ce {
+	overflow: visible;
+	position: absolute;
+	width: 6.163px;
+	height: 6.463px;
+	left: 0px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_822_cf {
+	fill: transparent;
+	stroke: rgba(76,82,100,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_822_cf {
+	overflow: visible;
+	position: absolute;
+	width: 6.261px;
+	height: 6.461px;
+	left: 10.8px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_823_cg {
+	fill: transparent;
+	stroke: rgba(76,82,100,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_823_cg {
+	overflow: visible;
+	position: absolute;
+	width: 11.5px;
+	height: 14.737px;
+	left: 2.7px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#reviews-link_ch {
+	position: absolute;
+	width: 48px;
+	height: 58px;
+	left: 64px;
+	top: 273px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Reviews_ci {
+	left: 1px;
+	top: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 47px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(188,197,211,1);
+}
+#ID36_cj {
+	left: 8px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(188,197,211,1);
+}
+#followers-link_ck {
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	left: 159px;
+	top: 273px;
+	overflow: visible;
+}
+#Followers_cl {
+	left: 2px;
+	top: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(240,200,70,1);
+}
+#ID123_cm {
+	left: 5px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 49px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(240,200,70,1);
+}
+#comments-link_cn {
+	position: absolute;
+	width: 66px;
+	height: 58px;
+	left: 255px;
+	top: 273px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Comments.html;
+	cursor: pointer;
+}
+#Comments_co {
+	left: 3px;
+	top: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 61px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -1px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(188,197,211,1);
+}
+#ID15_cp {
+	left: 17px;
+	top: 4px;
+	position: absolute;
+	overflow: visible;
+	width: 33px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: rgba(188,197,211,1);
+}
+#Component_12__1 {
+	position: absolute;
+	width: 375px;
+	height: 66px;
+	left: 0px;
+	top: 661px;
+	overflow: visible;
+}
+#rectangle_cr {
+	fill: rgba(240,200,70,1);
+}
+.rectangle_cr {
+	overflow: visible;
+	position: absolute;
+	width: 375px;
+	height: 66px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#button-text_cs {
+	left: 31px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	height: 23px;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#followers-content {
+	opacity: 0.63;
+	position: absolute;
+	width: 314px;
+	height: 222px;
+	left: 31px;
+	top: 374px;
+	overflow: visible;
+}
+#Sharing_my_experience_with_asp {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	height: 51px;
+	line-height: 24px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(76,82,100,1);
+}
+#Hello_my_names_Hayatunnabi_Nab {
+	left: 30px;
+	top: 69px;
+	position: absolute;
+	overflow: visible;
+	width: 254px;
+	height: 153px;
+	line-height: 20px;
+	margin-top: -3px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(63,59,59,1);
+}
+#reviews-icon_cw {
+	fill: transparent;
+	stroke: rgba(240,200,70,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.reviews-icon_cw {
+	overflow: visible;
+	position: absolute;
+	width: 20.385px;
+	height: 19.489px;
+	left: 103.5px;
+	top: 151.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_828 {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(240,200,70,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_828 {
+	overflow: visible;
+	position: absolute;
+	width: 51.884px;
+	height: 7.258px;
+	transform: matrix(1,0,0,1,213.6871,157) rotate(89deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#followers-icon_cy {
+	position: absolute;
+	width: 20.7px;
+	height: 18.4px;
+	left: 177px;
+	top: 227px;
+	overflow: visible;
+}
+#Path_821_cz {
+	fill: transparent;
+	stroke: rgba(240,200,70,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_821_cz {
+	overflow: visible;
+	position: absolute;
+	width: 6.163px;
+	height: 6.463px;
+	left: 4.8px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_822_c {
+	fill: transparent;
+	stroke: rgba(240,200,70,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_822_c {
+	overflow: visible;
+	position: absolute;
+	width: 6.261px;
+	height: 6.461px;
+	left: 15.6px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_823_c {
+	fill: transparent;
+	stroke: rgba(240,200,70,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_823_c {
+	overflow: visible;
+	position: absolute;
+	width: 11.5px;
+	height: 14.737px;
+	left: 7.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_824_c {
+	fill: transparent;
+	stroke: rgba(240,200,70,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_824_c {
+	overflow: visible;
+	position: absolute;
+	width: 5.264px;
+	height: 5.464px;
+	left: 0px;
+	top: 10.8px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_825_c {
+	fill: transparent;
+	stroke: rgba(240,200,70,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_825_c {
+	overflow: visible;
+	position: absolute;
+	width: 5.2px;
+	height: 12.244px;
+	left: 2.2px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#comments-icon_c {
+	fill: transparent;
+	stroke: rgba(101,105,216,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.comments-icon_c {
+	overflow: visible;
+	position: absolute;
+	width: 21.4px;
+	height: 18.3px;
+	left: 252.5px;
+	top: 152.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Mask_Group_2 {
+	opacity: 0.95;
+	position: absolute;
+	width: 88px;
+	height: 88px;
+	left: 145px;
+	top: 118px;
+	overflow: visible;
+}
+#Component_11__2 {
+	position: absolute;
+	width: 19px;
+	height: 12px;
+	left: 31.5px;
+	top: 47px;
+	overflow: visible;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Line_1_c {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1_c {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2_c {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2_c {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3_c {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3_c {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 8px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_4_da {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4_da {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 12px;
+	transform: matrix(1,0,0,1,0,0);
+}

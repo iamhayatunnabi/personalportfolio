@@ -1,0 +1,713 @@
+.mediaViewInfo {
+	--web-view-name: Academic Info;
+	--web-view-id: Academic_Info;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Academic_Info;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Academic_Info {
+	position: absolute;
+	width: 375px;
+	height: 812px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Academic Info;
+	--web-view-id: Academic_Info;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Rectangle_1 {
+	opacity: 0.74;
+	fill: rgba(234,116,65,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_1 {
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	height: 64px;
+	left: 28px;
+	top: 302px;
+}
+#Rectangle_2 {
+	opacity: 0.77;
+	fill: rgba(234,116,65,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	height: 32px;
+	left: 109px;
+	top: 376px;
+}
+#rectangle_er {
+	fill: rgba(234,116,65,1);
+}
+.rectangle_er {
+	overflow: visible;
+	position: absolute;
+	width: 375px;
+	height: 66px;
+	left: 0px;
+	top: 661px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#settings-icon_es {
+	opacity: 0.3;
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.settings-icon_es {
+	overflow: visible;
+	position: absolute;
+	width: 19.875px;
+	height: 19.98px;
+	left: 295.5px;
+	top: 755.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#messages-icon_et {
+	opacity: 0.3;
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.messages-icon_et {
+	overflow: visible;
+	position: absolute;
+	width: 21.4px;
+	height: 18.3px;
+	left: 213.5px;
+	top: 756.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#home-icon_eu {
+	opacity: 0.3;
+	position: absolute;
+	width: 19.4px;
+	height: 18.6px;
+	left: 56px;
+	top: 755px;
+	overflow: visible;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Path_761_ev {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_761_ev {
+	overflow: visible;
+	position: absolute;
+	width: 20.4px;
+	height: 8.6px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_762_ew {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_762_ew {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 17px;
+	top: 6.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_763_ex {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_763_ex {
+	overflow: visible;
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	left: 2px;
+	top: 7.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_764_ey {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_764_ey {
+	overflow: visible;
+	position: absolute;
+	width: 16px;
+	height: 12px;
+	left: 2px;
+	top: 7.6px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#indicator_ez {
+	opacity: 0.08;
+	position: absolute;
+	width: 134px;
+	height: 5px;
+	left: 121px;
+	top: 798px;
+	overflow: visible;
+}
+#indicator_e {
+	fill: rgba(0,0,0,1);
+}
+.indicator_e {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 5px;
+	left: 0px;
+	top: 0px;
+}
+#Academic_Infromaion {
+	left: 88px;
+	top: 41px;
+	position: absolute;
+	overflow: visible;
+	width: 200px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	color: rgba(76,82,100,1);
+}
+#mentors-icon_e {
+	position: absolute;
+	width: 15.9px;
+	height: 18.4px;
+	left: 137px;
+	top: 755px;
+	overflow: visible;
+}
+#Path_821_e {
+	fill: transparent;
+	stroke: rgba(76,82,100,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_821_e {
+	overflow: visible;
+	position: absolute;
+	width: 6.163px;
+	height: 6.463px;
+	left: 0px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_822_e {
+	fill: transparent;
+	stroke: rgba(76,82,100,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_822_e {
+	overflow: visible;
+	position: absolute;
+	width: 6.261px;
+	height: 6.461px;
+	left: 10.8px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_823_e {
+	fill: transparent;
+	stroke: rgba(76,82,100,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_823_e {
+	overflow: visible;
+	position: absolute;
+	width: 11.5px;
+	height: 14.737px;
+	left: 2.7px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#reviews-icon_e {
+	fill: transparent;
+	stroke: rgba(234,116,65,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.reviews-icon_e {
+	overflow: visible;
+	position: absolute;
+	width: 20.385px;
+	height: 19.489px;
+	left: 103.5px;
+	top: 151.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#followers-icon_e {
+	position: absolute;
+	width: 20.7px;
+	height: 18.4px;
+	left: 177px;
+	top: 227px;
+	overflow: visible;
+}
+#Path_821_fa {
+	fill: transparent;
+	stroke: rgba(234,116,65,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_821_fa {
+	overflow: visible;
+	position: absolute;
+	width: 6.163px;
+	height: 6.463px;
+	left: 4.8px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_822_fa {
+	fill: transparent;
+	stroke: rgba(234,116,65,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_822_fa {
+	overflow: visible;
+	position: absolute;
+	width: 6.261px;
+	height: 6.461px;
+	left: 15.6px;
+	top: 13.1px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_823_fa {
+	fill: transparent;
+	stroke: rgba(234,116,65,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_823_fa {
+	overflow: visible;
+	position: absolute;
+	width: 11.5px;
+	height: 14.737px;
+	left: 7.5px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_824_fb {
+	fill: transparent;
+	stroke: rgba(234,116,65,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_824_fb {
+	overflow: visible;
+	position: absolute;
+	width: 5.264px;
+	height: 5.464px;
+	left: 0px;
+	top: 10.8px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_825_fc {
+	fill: transparent;
+	stroke: rgba(234,116,65,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_825_fc {
+	overflow: visible;
+	position: absolute;
+	width: 5.2px;
+	height: 12.244px;
+	left: 2.2px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#comments-icon_fd {
+	fill: transparent;
+	stroke: rgba(182,182,184,1);
+	stroke-width: 1px;
+	stroke-linejoin: round;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.comments-icon_fd {
+	overflow: visible;
+	position: absolute;
+	width: 21.4px;
+	height: 18.3px;
+	left: 252.5px;
+	top: 152.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Mask_Group_1_fe {
+	position: absolute;
+	width: 88px;
+	height: 88px;
+	left: 145px;
+	top: 118px;
+	overflow: visible;
+}
+#International_University_of_Bu {
+	left: 47px;
+	top: 313px;
+	position: absolute;
+	overflow: visible;
+	width: 279px;
+	height: 42px;
+	line-height: 16px;
+	margin-top: -0.5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#BCSE {
+	left: 153px;
+	top: 384px;
+	position: absolute;
+	overflow: visible;
+	width: 70px;
+	height: 32px;
+	line-height: 16px;
+	margin-top: -2px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+}
+#Admitted_Semester_Spring_2018 {
+	left: 91px;
+	top: 428px;
+	position: absolute;
+	overflow: visible;
+	width: 195px;
+	white-space: nowrap;
+	line-height: 16px;
+	margin-top: -0.5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(76,82,100,1);
+}
+#Completed_major_Courses_Progra {
+	left: 82px;
+	top: 472px;
+	position: absolute;
+	overflow: visible;
+	width: 215px;
+	height: 125px;
+	line-height: 25px;
+	margin-top: -5px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(76,82,100,1);
+}
+#Component_10__1 {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 326px;
+	top: 679px;
+	overflow: visible;
+	transition: all 0.6s ease-in-out;
+	--web-animation: fadein 0.6s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: Academic_Info_2.html;
+	cursor: pointer;
+}
+#Rectangle_3 {
+	opacity: 0.63;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_11__4 {
+	position: absolute;
+	width: 19px;
+	height: 12px;
+	left: 33.5px;
+	top: 47px;
+	overflow: visible;
+	transition: all 0.3s ease-in-out;
+	--web-animation: fadein 0.3s ease-in-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Line_1_fm {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_1_fm {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_2_fn {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_2_fn {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 4px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_3_fo {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_3_fo {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 8px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Line_4_fp {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Line_4_fp {
+	overflow: visible;
+	position: absolute;
+	width: 21px;
+	height: 2px;
+	left: 0px;
+	top: 12px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#button-text_fq {
+	left: 30px;
+	top: 683px;
+	position: absolute;
+	overflow: visible;
+	width: 315px;
+	height: 23px;
+	line-height: 24px;
+	margin-top: -4px;
+	text-align: center;
+	font-family: Gibson;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(255,255,255,1);
+}
+#Group_1 {
+	position: absolute;
+	width: 103.984px;
+	height: 103.984px;
+	left: 137px;
+	top: 110px;
+	overflow: visible;
+}
+#Path_826 {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(239,151,113,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_826 {
+	overflow: visible;
+	position: absolute;
+	width: 13.185px;
+	height: 58.712px;
+	left: 0px;
+	top: 26.638px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_827_ft {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(239,151,113,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_827_ft {
+	overflow: visible;
+	position: absolute;
+	width: 58.712px;
+	height: 13.185px;
+	left: 26.638px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_828_fu {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(239,151,113,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_828_fu {
+	overflow: visible;
+	position: absolute;
+	width: 56.303px;
+	height: 12.497px;
+	left: 27.82px;
+	top: 97.389px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_829_fv {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(239,151,113,1);
+	stroke-width: 5px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_829_fv {
+	overflow: visible;
+	position: absolute;
+	width: 12.497px;
+	height: 56.303px;
+	left: 97.389px;
+	top: 27.82px;
+	transform: matrix(1,0,0,1,0,0);
+}
